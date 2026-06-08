@@ -13,14 +13,22 @@
 
     <input type="text" id="nameInput" placeholder="Enter your name">
     <br></br>
-    <input type="text" id ="numnerInput" placeholder="Create your Password">
+    <input type="text" id ="numnerInput" placeholder="Create your Password">show/hide
+    <button></button>
     <br></br>
 
-    <button onclick="showMessage()">LOG IN</button>
+    <button onclick="showMessage()">LOG IN()">LOG IN</button>
 
     <p id="msg"></p>
 
-    <script src="script.js"></script>
+    <script>
+        function login() {
+                document.getElementById("msg").innerHTML="LOG IN SUCCESSFULLY☑";
+                    setTimeout(function() {
+                        window.location.href="home.html";
+            },2*1000);
+        }
+    </script>
 
 </body>
 </html>
