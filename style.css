@@ -1,15 +1,15 @@
 body {
     margin: 20px;
-    background-color: #0f172a;
-    color: white;
+    background-color: grey;
+    color: green;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 50px;
 }
 
 h1 {
-    color: #38bdf8;
-    font-size: 40px;
+    color: yellow;
+    font-size: 30px;
 }
 
 p {
